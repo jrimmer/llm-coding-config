@@ -15,20 +15,6 @@
   "enabledMcpjsonServers": [
     "github"
   ],
-  "sandbox": {
-    "allowNetwork": true,
-    "allowedPaths": [
-      ".",
-      "~/.npm",
-      "~/.cache", 
-      "/tmp"
-    ],
-    "allowedNetworkDomains": [
-      "registry.npmjs.org",
-      "registry.yarnpkg.com"
-    ]
-  },
-  "model": "GLM,glm-4.6",
   "statusLine": {
     "type": "command",
     "command": "npx -y ccstatusline@latest",
@@ -39,5 +25,7 @@
     "example-skills@anthropic-agent-skills": true,
     "playwright-skill@playwright-skill": true
   },
-  "alwaysThinkingEnabled": true
+  "sandbox": {},
+  "alwaysThinkingEnabled": true,
+  "model": "claude-opus-4-5-20251101"
 }
