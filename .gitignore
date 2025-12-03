@@ -1,0 +1,22 @@
+# Conversation history and logs (contains private data)
+history.jsonl
+debug/
+
+# Local settings (may contain sensitive configuration)
+settings.local.json
+
+# Project-specific data (may contain sensitive paths/data)
+projects/
+
+# IDE integration state
+ide/
+
+# Temporary and cache files
+file-history/
+shell-snapshots/
+statsig/
+todos/
+
+# OS generated files
+.DS_Store
+Thumbs.db

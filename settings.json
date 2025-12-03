@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__issue_write",
+      "mcp__github__issue_read",
+      "Bash(npm install:*)",
+      "WebFetch(domain:registry.npmjs.org)",
+      "Bash(sudo chown:*)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "github"
+  ],
+  "sandbox": {
+    "allowNetwork": true,
+    "allowedPaths": [
+      ".",
+      "~/.npm",
+      "~/.cache", 
+      "/tmp"
+    ],
+    "allowedNetworkDomains": [
+      "registry.npmjs.org",
+      "registry.yarnpkg.com"
+    ]
+  },
+  "model": "GLM,glm-4.6",
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "example-skills@anthropic-agent-skills": true,
+    "playwright-skill@playwright-skill": true
+  },
+  "alwaysThinkingEnabled": true
+}
