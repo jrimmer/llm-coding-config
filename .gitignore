@@ -7,6 +7,7 @@ settings.local.json
 
 # Project-specific data (may contain sensitive paths/data)
 projects/
+plans/
 
 # IDE integration state
 ide/
