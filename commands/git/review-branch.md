@@ -27,13 +27,14 @@ Execute these reviewers **in parallel** using background processes:
    - Review the diff for issues CodeRabbit might miss
    - Check for project-specific patterns and conventions
    - Security vulnerabilities and potential attack vectors
-   - Performance bottlenecks and optimization opportunities
+   - Performance bottlenecks and optimization opportunities, improvements
    - Code quality issues (readability, maintainability, complexity)
    - Best practices violations for the specific language/framework
    - Bug risks and potential runtime errors
    - Architecture concerns and design pattern improvements
    - Testing gaps and test quality issues
    - Documentation deficiencies
+   - Accessibility issues such as impacting keyboard or mouse usage
 
 3. **Aggregate Findings**:
    - Deduplicate issues found by multiple reviewers

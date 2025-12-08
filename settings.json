@@ -6,10 +6,29 @@
       "Bash(npm install:*)",
       "WebFetch(domain:registry.npmjs.org)",
       "Bash(sudo chown:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "WebFetch(domain:code.claude.com)",
+      "Bash(cat:*)",
+      "mcp__context7__resolve-library-id",
+      "WebFetch(domain:docs.sentry.io)",
+      "Bash(npm run type-check:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm run test:run:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr create --title \"feat: Add Sentry error tracking integration\" --body \"$(cat <<''EOF''\n## Summary\n\n- Add Sentry SDK for both Electron main process (`@sentry/electron`) and React renderer (`@sentry/react`)\n- Implement comprehensive PII scrubbing to protect sensitive data (tokens, credentials, video frame data)\n- Integrate with existing logger to capture breadcrumbs for debugging context\n- Bind user context on authentication for error attribution\n- Only active in production builds when `VITE_SENTRY_DSN` is configured\n\n## Test plan\n\n- [ ] Verify Sentry is **not** initialized in development mode (check console logs)\n- [ ] Verify Sentry initializes correctly in production with valid DSN\n- [ ] Verify sensitive data scrubbing works (check `scrubSensitiveData` unit tests)\n- [ ] Verify user context is set after login and cleared on logout\n- [ ] Test error capture by triggering a runtime error in production build\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\nEOF\n)\")",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch(domain:mantine.dev)",
+      "Bash(git stash:*)",
+      "Bash(git pull:*)",
+      "Bash(gh pr create:*)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "defaultMode": "acceptEdits"
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
@@ -17,15 +36,15 @@
   ],
   "statusLine": {
     "type": "command",
-    "command": "npx -y ccstatusline@latest",
+    "command": "bunx -y ccstatusline@latest",
     "padding": 0
   },
   "enabledPlugins": {
     "document-skills@anthropic-agent-skills": true,
     "example-skills@anthropic-agent-skills": true,
-    "playwright-skill@playwright-skill": true
+    "playwright-skill@playwright-skill": true,
+    "superpowers@superpowers-marketplace": true
   },
   "sandbox": {},
-  "alwaysThinkingEnabled": true,
-  "model": "claude-opus-4-5-20251101"
+  "alwaysThinkingEnabled": true
 }
