@@ -17,6 +17,8 @@ file-history/
 shell-snapshots/
 statsig/
 todos/
+stats-cache.json
+plugins/cache/
 
 # OS generated files
 .DS_Store
