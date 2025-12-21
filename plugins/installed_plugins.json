@@ -1,37 +1,126 @@
 {
-  "version": 1,
+  "version": 2,
   "plugins": {
-    "document-skills@anthropic-agent-skills": {
-      "version": "unknown",
-      "installedAt": "2025-11-22T20:28:52.746Z",
-      "lastUpdated": "2025-11-22T20:28:52.746Z",
-      "installPath": "/Users/jrimmer/.claude/plugins/marketplaces/anthropic-agent-skills/",
-      "gitCommitSha": "0f77e501e6506235956d953cd2d7a2a4aa9ba133",
-      "isLocal": true
-    },
-    "example-skills@anthropic-agent-skills": {
-      "version": "unknown",
-      "installedAt": "2025-11-22T20:28:52.746Z",
-      "lastUpdated": "2025-11-22T20:28:52.746Z",
-      "installPath": "/Users/jrimmer/.claude/plugins/marketplaces/anthropic-agent-skills/",
-      "gitCommitSha": "0f77e501e6506235956d953cd2d7a2a4aa9ba133",
-      "isLocal": true
-    },
-    "playwright-skill@playwright-skill": {
-      "version": "4.0.2",
-      "installedAt": "2025-11-22T20:34:26.263Z",
-      "lastUpdated": "2025-11-22T20:34:26.263Z",
-      "installPath": "/Users/jrimmer/.claude/plugins/marketplaces/playwright-skill/",
-      "gitCommitSha": "a91f718404ab553b1d48a01e2be99c4cb22780ba",
-      "isLocal": true
-    },
-    "superpowers@superpowers-marketplace": {
-      "version": "3.6.2",
-      "installedAt": "2025-12-08T07:34:51.685Z",
-      "lastUpdated": "2025-12-08T07:34:51.685Z",
-      "installPath": "/Users/jrimmer/.claude/plugins/cache/superpowers",
-      "gitCommitSha": "154d664373569a83289684d7b01742a82cca4eaf",
-      "isLocal": false
-    }
+    "document-skills@anthropic-agent-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/anthropic-agent-skills/document-skills/00756142ab04",
+        "version": "00756142ab04",
+        "installedAt": "2025-11-22T20:28:52.746Z",
+        "lastUpdated": "2025-12-20T07:16:32.054Z",
+        "gitCommitSha": "0f77e501e6506235956d953cd2d7a2a4aa9ba133",
+        "isLocal": true
+      }
+    ],
+    "playwright-skill@playwright-skill": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/playwright-skill/playwright-skill/4.1.0",
+        "version": "4.1.0",
+        "installedAt": "2025-11-22T20:34:26.263Z",
+        "lastUpdated": "2025-12-20T07:16:11.455Z",
+        "gitCommitSha": "a91f718404ab553b1d48a01e2be99c4cb22780ba",
+        "isLocal": true
+      }
+    ],
+    "superpowers@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/superpowers-marketplace/superpowers/4.0.0",
+        "version": "4.0.0",
+        "installedAt": "2025-12-08T07:34:51.685Z",
+        "lastUpdated": "2025-12-20T07:15:59.279Z",
+        "gitCommitSha": "154d664373569a83289684d7b01742a82cca4eaf",
+        "isLocal": false
+      }
+    ],
+    "browser-automation@browser-tools": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/marketplaces/browser-tools/",
+        "version": "0.0.1",
+        "installedAt": "2025-12-17T21:41:28.046Z",
+        "lastUpdated": "2025-12-17T21:41:28.046Z",
+        "gitCommitSha": "caf47ed20922212dfba99217ac486f2ec200f5b7",
+        "isLocal": true
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/github/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:17:00.020Z",
+        "lastUpdated": "2025-12-20T07:17:00.020Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "supabase@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/supabase/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:17:07.318Z",
+        "lastUpdated": "2025-12-20T07:17:07.318Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:17:15.298Z",
+        "lastUpdated": "2025-12-20T07:17:15.298Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:17:28.414Z",
+        "lastUpdated": "2025-12-20T07:17:28.414Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/playwright/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:17:44.685Z",
+        "lastUpdated": "2025-12-20T07:17:44.685Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "vercel@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/claude-plugins-official/vercel/unknown",
+        "version": "unknown",
+        "installedAt": "2025-12-20T07:18:00.855Z",
+        "lastUpdated": "2025-12-20T07:18:00.855Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ],
+    "beads@beads-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/beads-marketplace/beads/0.32.1",
+        "version": "0.32.1",
+        "installedAt": "2025-12-21T08:40:19.908Z",
+        "lastUpdated": "2025-12-21T08:40:19.908Z",
+        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "isLocal": true
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2025-11-22T20:20:32.478Z"
+    "lastUpdated": "2025-12-14T20:03:28.472Z"
   },
   "anthropic-agent-skills": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "anthropics/skills"
     },
     "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/anthropic-agent-skills",
-    "lastUpdated": "2025-11-22T20:24:43.716Z"
+    "lastUpdated": "2025-12-14T20:03:25.629Z"
   },
   "playwright-skill": {
     "source": {
@@ -21,6 +21,30 @@
       "repo": "lackeyjb/playwright-skill"
     },
     "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/playwright-skill",
-    "lastUpdated": "2025-11-22T20:31:32.907Z"
+    "lastUpdated": "2025-12-14T20:03:26.967Z"
+  },
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2025-12-12T20:44:33.910Z"
+  },
+  "browser-tools": {
+    "source": {
+      "source": "github",
+      "repo": "browserbase/agent-browse"
+    },
+    "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/browser-tools",
+    "lastUpdated": "2025-12-17T21:30:39.525Z"
+  },
+  "beads-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "steveyegge/beads"
+    },
+    "installLocation": "/Users/jrimmer/.claude/plugins/marketplaces/beads-marketplace",
+    "lastUpdated": "2025-12-21T08:40:01.325Z"
   }
 }
