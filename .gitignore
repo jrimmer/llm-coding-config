@@ -19,6 +19,8 @@ statsig/
 todos/
 stats-cache.json
 plugins/cache/
+plugins/install-counts-cache.json
+telemetry/
 
 # OS generated files
 .DS_Store

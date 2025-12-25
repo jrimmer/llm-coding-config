@@ -23,17 +23,6 @@
         "isLocal": true
       }
     ],
-    "superpowers@superpowers-marketplace": [
-      {
-        "scope": "user",
-        "installPath": "/Users/jrimmer/.claude/plugins/cache/superpowers-marketplace/superpowers/4.0.0",
-        "version": "4.0.0",
-        "installedAt": "2025-12-08T07:34:51.685Z",
-        "lastUpdated": "2025-12-20T07:15:59.279Z",
-        "gitCommitSha": "154d664373569a83289684d7b01742a82cca4eaf",
-        "isLocal": false
-      }
-    ],
     "browser-automation@browser-tools": [
       {
         "scope": "user",
@@ -116,10 +105,32 @@
         "scope": "user",
         "installPath": "/Users/jrimmer/.claude/plugins/cache/beads-marketplace/beads/0.32.1",
         "version": "0.32.1",
-        "installedAt": "2025-12-21T08:40:19.908Z",
-        "lastUpdated": "2025-12-21T08:40:19.908Z",
-        "gitCommitSha": "0062ea4048bcd1dc61c82922d15fd0df81819cb9",
+        "installedAt": "2025-12-21T21:17:30.532Z",
+        "lastUpdated": "2025-12-21T21:17:30.532Z",
+        "gitCommitSha": "2c7a4b14b8976dd2e56d80232b509ced1738c521",
         "isLocal": true
+      }
+    ],
+    "double-shot-latte@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/superpowers-marketplace/double-shot-latte/1.1.5",
+        "version": "1.1.5",
+        "installedAt": "2025-12-22T06:33:54.744Z",
+        "lastUpdated": "2025-12-22T06:33:54.744Z",
+        "gitCommitSha": "a8516cc5f6b62b25044b69a5ddcfac39d4a4177e",
+        "isLocal": false
+      }
+    ],
+    "superpowers@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jrimmer/.claude/plugins/cache/superpowers-marketplace/superpowers/4.0.0",
+        "version": "4.0.0",
+        "installedAt": "2025-12-22T06:33:55.530Z",
+        "lastUpdated": "2025-12-22T06:33:55.530Z",
+        "gitCommitSha": "80643c26040437740d4a185ed5693d365ca3aeec",
+        "isLocal": false
       }
     ]
   }
